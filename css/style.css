@@ -1,0 +1,267 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Basic Css */
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Buttons */
+
+.header-btn{
+    background-color: #FFB606;
+    color: #002141;
+    font-size: 13px;
+    padding: 7px 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: .4s ease;
+}
+
+/* Top Header Css */
+
+.top-header{
+    background-color: #002147;
+    padding: 15px 0;
+    text-align: end;
+    z-index: 1;
+}
+
+.header-btn:hover{
+    transform: scale(1.1);
+}
+
+/* Navbar Css */
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+}
+
+#banner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    z-index: -100;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 13px;
+    margin-right: 44px;
+}
+
+.navbar .navbar-nav .nav-link i{
+    padding-left: 6px;
+}
+
+.fa-search-location{
+    font-size: 25px;
+    border-left: 1px solid #fff;
+}
+
+/* Banner Css */
+.content{
+    padding: 250px 0;
+}
+
+.content h3{
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+.content p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.content i{
+    padding-right: 20px;
+    font-size: 30px;
+    color: #FFB606;
+}
+
+
+/* Teacher Section Start */
+
+.speech{
+    -webkit-box-shadow: 2px 4px 15px -1px #000000; 
+    box-shadow: 2px 4px 15px -1px #000000;
+    padding: 50px;
+}
+
+.speech h3{
+    color: #002147;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.speech p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.teacher-img{
+    -webkit-box-shadow: 2px 4px 15px -1px #000000; 
+    box-shadow: 2px 4px 15px -1px #000000;
+}
+
+.details p{
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.details span{
+    font-size: 14px;
+    font-weight: 800;
+    color: #002147;
+}
+
+.teacher-single{
+    -webkit-box-shadow: 2px 4px 15px -1px #000000; 
+    box-shadow: 2px 4px 15px -1px #000000;
+    padding: 50px;
+    transition: .4s all ease;
+} 
+
+.teacher-single:hover{
+    box-shadow: 1px 2px 6px -1px #000000;
+}
+
+/* Title */
+
+.section-title h2{
+    color: #002147;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background: #FFB606;
+    left: 45%;
+    bottom: -30px;
+}
+
+/* Counter */
+
+#counter{
+    background: url(../img/counter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 100;
+}
+
+#counter::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .7;
+    z-index: -100;
+}
+
+.counter i{
+    font-size: 50px;
+    color: #FFB606;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+.counter h2{
+    font-size: 36px;
+}
+
+.counter h6{
+    font-size: 18px;
+    letter-spacing: 0.7px;
+}
+
+/* Welcome */
+
+.welcome h3{
+    color: #002147;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.welcome p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.welcome a{
+    background: #FFB606;
+    display: inline-block;
+    width: 100%;
+    color: #002147;
+    font-weight: 700;
+    transition: .4s all ease;
+    overflow: hidden;
+}
+
+.welcome a:hover{
+    transform: scale(1.1);
+}
+
+.welcome-img{
+    position: relative;
+}
+
+.welcome-img i {
+    color: #ffb606;
+    font-size: 30px;
+    left: 41%;
+    padding-left: 7px;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    background: #ffb606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    border-radius: 100%;
+    transition: .4s all ease;
+    cursor: pointer;
+}
+
+.welcome-img i:hover{
+    transform: scale(1.3);
+}
